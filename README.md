@@ -10,11 +10,12 @@ Primeiramente, obrigado por querer fazer parte da empresa Golfarma. Os detalhes 
 - Boa sorte!
 
 ## Requisitos e diferenciais:
-- Sua solução deve ser implementada usando o framework Laravel;
+- Sua solução deve ser implementada usando o framework [Laravel](https://laravel.com/);
 - Utilização de docker para configuração de ambiente será um diferencial;
 - Teste unitário ou integração serão um diferencial;
 
 ## Desafio - Sistema de Gerenciamento de Pedidos
+- É necessário autenticação para acesso as rotas do CRUD. (É possível usar o [Laravel Sanctum](https://laravel.com/docs/10.x/sanctum))
 - Crie uma estrutura de dados simples para representar um pedido. Cada pedido deve ter campos como "ID do Pedido", "Cliente", "Total" e "Status".
 - Implemente as seguintes rotas para realizar operações CRUD:
   - Criar Pedido (Create): Uma rota que permita criar um novo pedido. A rota deve aceitar informações como "Cliente", "Total" e "Status" como parâmetros de entrada.
